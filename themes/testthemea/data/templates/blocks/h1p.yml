@@ -1,0 +1,7 @@
+label: Text section
+category: Basic
+attributes:
+  class: gjs-fonts gjs-f-h1p
+content: <h1 class="heading">Insert title here</h1><p class="paragraph">Lorem ipsum
+  dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+  labore et dolore magna aliqua</p>

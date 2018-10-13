@@ -1,0 +1,29 @@
+name: Nav 01
+category: Nav
+parameters:
+  - name: Menu
+    type: config
+    config: Site.Menus.main
+    definition:
+      - name: String
+        default: "Home"
+        optional: false
+
+      - url: String
+        default: "/"
+        optional: false
+
+      - weight: Integer
+        default: 1
+        optional: false
+
+      - Children: Menu
+        optional: true
+
+  - name: Logo
+    type: image
+    src: img/logo.png
+
+  - name: Logo Small
+    type: image
+    src: img/logo.png

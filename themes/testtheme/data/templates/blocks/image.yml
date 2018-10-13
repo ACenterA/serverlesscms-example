@@ -1,0 +1,11 @@
+label: Image
+category: Basic
+
+attributes:
+    class: gjs-fonts gjs-f-image
+
+content:
+   type: image
+   style:
+      color: black
+   activeOnRender: 1

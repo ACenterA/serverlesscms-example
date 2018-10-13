@@ -1,0 +1,10 @@
+label: 2 Block
+category: Layout
+attributes:
+    class: gjs-fonts gjs-f-b2
+content: |
+   <div class='blk-row'>
+    <div class='blk2'></div>
+    <div class='blk2'></div>
+    </div>
+    <style>.blk-row::after{ content: ''; clear: both; display: block;} .blk-row{padding: 10px;}.blk2{float: left;width: 50%;padding: 10px;min-height: 75px;}</style>

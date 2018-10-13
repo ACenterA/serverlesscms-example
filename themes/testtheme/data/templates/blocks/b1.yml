@@ -1,0 +1,12 @@
+label: 1 Block
+category: Layout
+
+attributes:
+    class: gjs-fonts gjs-f-b1
+
+content: |
+      <div class='blk-row'>
+        <div class='blk1'>
+        </div>
+      </div>
+      <style>.blk-row::after{ content: ''; clear: both; display: block;} .blk-row{padding: 10px;}.blk1{width: 100%;padding: 10px;min-height: 75px;}</style>
